@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crextio Dashboard</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <header>
+        <button>Crextio</button>
+        <nav>
+            <ul class="nav-menu">
+                <li class="on">Dashboard</li>
+                <li>People</li>
+                <li>Hiring</li>
+                <li>Devices</li>
+                <li>Apps</li>
+                <li>Salary</li>
+                <li>Calender</li>
+                <li>Reviews</li>
+            </ul>
+            <button> <i class="fa-solid fa-gear"></i> Setting</button>
+            <i id="bell" class="fa-solid fa-bell"></i>
+            <i id="bell" class="fa-solid fa-user-check"></i>
+            <i id="bar" class="fa-solid fa-bars-staggered"></i>
+        </nav>
+    </header>
+
+    <h1 class="heading">Wellcome in, Nixtio</h1>
+
+    <div class="interviews">
+        <div class="inter-1">
+            <div class="inter-1-in1">
+                <p>Interviews</p>
+                <span>15%</span>
+            </div>
+
+            <div class="inter-1-in2">
+                <p>Hired</p>
+                <span>15%</span>
+            </div>
+
+            <div class="inter-1-in3">
+                <p>Project time</p>
+                <span>60%</span>
+            </div>
+
+            <div class="inter-1-in4">
+                <p>Output </p>
+                <span>10%</span>
+            </div>
+
+        </div>
+
+
+        <!-- /* ===================== interviews__END ==================== */ -->
+
+
+
+        <div class="inter-2">
+
+            <div class="inter-2-in1">
+                <div class="inter-2-in1-in"><i class="fa-solid fa-user-group"></i>
+                    <p> 78</p>
+                </div>
+                <p>Employ</p>
+            </div>
+
+            <div class="inter-2-in1">
+                <div class="inter-2-in1-in"><i class="fa-solid fa-user-xmark"></i>
+                    <p> 56</p>
+                </div>
+                <p>Hirings</p>
+            </div>
+
+            <div class="inter-2-in1">
+                <div class="inter-2-in1-in"><i class="fa-solid fa-laptop"></i>
+                    <p> 203</p>
+                </div>
+                <p>Projects</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ======================== main-container ========================= -->
+
+
+    <div class="main-container">
+
+        <!-- main-container-1 -->
+        <div class="main-container-1">
+            <div class="con-1-in1">
+
+                <div class="img">
+                    <div class="img-in">
+                        <div class="img-in1">
+                            <h1>Lora Piterson</h1>
+                            <p>UX/UI Designer</p>
+                        </div>
+                        <button>$1,200</button>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-1">
+                        <p>Progress</p> <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="progress-2">
+                        <h1>6.1h</h1>
+                        <p>Work Time <br> this week</p>
+                    </div>
+
+                    <!-- bar  -->
+
+                    <div class="chart">
+
+                        <ul class="bars">
+                            <li>
+                                <div class="bar" data-percentage="40"></div><span>S</span>
+                            </li>
+                            <li>
+                                <div class="bar" data-percentage="55"
+                                    style="background-image: none;background-color: #000000;"></div>
+                                <span>M</span>
+                            </li>
+                            <li>
+                                <div class="bar" data-percentage="35"
+                                    style="background-image: none;background-color: #000000;"></div>
+                                <span>T</span>
+                            </li>
+                            <li>
+                                <div class="bar" data-percentage="30"
+                                    style="background-image: none;background-color: #000000;"></div>
+                                <span>W</span>
+                            </li>
+                            <li>
+                                <div class="bar" data-percentage="60"
+                                    style="background-image: none;background-color: #000000;"></div><span>T</span>
+                            </li>
+                            <li>
+                                <div class="bar" data-percentage="70"
+                                    style="background-image: none;background-color: #FFD85F;"></div><span>F</span>
+                            </li>
+                            <li>
+                                <div class="bar" data-percentage="40"></div><span>S</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="time">
+                    <div class="progress-1">
+                        <p>Time Tracker</p> <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="paii">
+                        <svg>
+                            <circle cx="77" cy="77" r="70"></circle>
+                        </svg>
+                        <div class="paii-cont">
+                            <h1>02:35</h1>
+                            <p>Work Time</p>
+                        </div>
+                    </div>
+
+                    <div class="paii-icon">
+                        <div class="fi">
+                            <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-pause"></i>
+                        </div>
+                        <i id="clock" class="fa-solid fa-alarm-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="con-1-in2">
+                <div class="pension">
+                    <div class="pen-in">
+                        <p>Pension Contributions</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+
+                    <div class="pen-in">
+                        <p>Devices</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="pen-in-img">
+                        <div class="pen-in1"> <img src="./photos/laptop-removebg-preview.png" alt="">
+                            <div>
+                                <h3>Mackbook Air</h3>
+                                <p>Version MI</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+
+
+                    <div class="pen-in">
+                        <p>Pension Contribution</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+
+                    <div class="pen-in">
+                        <p>Pension Contribution</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+
+                <div class="august">
+
+                    <div class="august-in1">
+                        <button>August</button>
+                        <p>September 2024</p>
+                        <button>October</button>
+                    </div>
+
+                    <div class="tab">
+
+                        <div class="week">
+                            <div>
+                                <h3>Weekly Team Sync</h3>
+                                <p>Discuss progress on projects</p>
+                            </div>
+
+                            <div class="person">
+                                <div class="img"></div>
+                                <div class="img"></div>
+                                <div class="img"></div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="session">
+                            <div>
+                                <h3>Onboarding session</h3>
+                                <p>Introduction for new hiers</p>
+                            </div>
+
+                            <div class="person">
+                                <div class="img"></div>
+                                <div class="img"></div>
+
+                            </div>
+                        </div>
+
+
+
+                        <ul class="tim">
+                            <li>08:00Am</li>
+                            <li>09:00Am</li>
+                            <li>10:00Am</li>
+                            <li>11:00Am</li>
+
+                        </ul>
+                        <ul class="day">
+                            <li>Mon <br>22 </li>
+                            <li>Tue <br>23</li>
+                            <li>Wed <br>24</li>
+                            <li>Thu <br>25</li>
+                            <li>Fri <br>26</li>
+                            <li>Sat <br>27</li>
+                            <li>Sun<br>28</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <!--  main-container-1  -->
+
+        <div class="main-container-2">
+            <div class="con-2in1">
+                <h1>Onboarding</h1>
+                <p>18%</p>
+            </div>
+
+            <div class="con-2in2">
+                <div class="div-1">
+                    <p>30%</p><span>Task</span>
+                </div>
+                <hr>
+                <div class="div-2">
+                    <p>25%</p><span></span>
+                </div>
+                <hr>
+                <div class="div-3">
+                    <p>0%</p><span></span>
+                </div>
+
+            </div>
+
+
+            <div class="onboard">
+                <div class="onboard-1"></div>
+                <div class="onboard-2"></div>
+                <div class="onboard-3">
+                    <div class="onboar-in1">
+                        <h1>Onboarding Task</h1>
+                        <p>2/8</p>
+                    </div>
+                    <div class="onboar-in2">
+                        <div id="in-1">
+                            <i id="secr" class="fa-solid fa-display"></i>
+                            <p><span>Interviews</span><br>Sep 13, 08:30</p>
+                        </div>
+                        <i id="pos" class="fa-solid fa-check"></i>
+                    </div>
+
+                     <div class="onboar-in2">
+                        <div id="in-1">
+                            <i id="secr" class="fa-solid fa-bolt-lightning"></i>
+                            <p><span>Team Meeting</span><br>Sep 13, 10:30</p>
+                        </div>
+                        <i id="pos" class="fa-solid fa-check"></i>
+                    </div>
+
+
+                     <div class="onboar-in2">
+                        <div id="in2-1">
+                            <i id="sec" class="fa-solid fa-comment-dots"></i>
+                            <p><span>Project Update</span><br>Sep 13, 13:30</p>
+                        </div>
+                        <i id="posi" class="fa-solid fa-check"></i>
+                    </div>
+
+                     <div class="onboar-in2">
+                        <div id="in2-1">
+                            <i id="sec" class="fa-solid fa-ruler"></i>
+                            <p><span>Discuss Q3 Goals</span><br>Sep 13, 14:45</p>
+                        </div>
+                        <i id="posi" class="fa-solid fa-check"></i>
+                    </div>
+
+                     <div class="onboar-in2">
+                        <div id="in2-1">
+                            <i id="sec"  class="fa-solid fa-link"></i>
+                            <p><span>Hr Policy Review</span><br>Sep 13, 16:30</p>
+                        </div>
+                        <i id="posi" class="fa-solid fa-check"></i>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('.bars li .bar').each(function (key, bar, ba) {
+                var percentage = $(this).data('percentage');
+                $(this).animate({
+                    'height': percentage + '%'
+                }, 1000);
+            });
+        });
+    </script>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
